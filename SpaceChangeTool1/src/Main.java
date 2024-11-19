@@ -26,7 +26,7 @@ public class Main {
 
         JTextField outputField = new JTextField();
         outputField.setBounds(100, 60, 250, 25);
-        outputField.setEditable(false);  // 出力欄は編集不可にする
+        outputField.setEditable(false); 
         frame.add(outputField);
 
         JButton convertButton = new JButton("変換");
@@ -49,6 +49,7 @@ public class Main {
         });
 
         //デスクトップ通知
+        //なんか機能しない
         convertButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
